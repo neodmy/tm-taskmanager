@@ -52,4 +52,7 @@ module.exports = {
 		],
 		exclude: ['password', 'secret', 'token', 'request.headers.cookie', 'dependencies', 'devDependencies'],
 	},
+	mongodb: {
+		url: 'mongodb://127.0.0.1:27017',
+	},
 };
